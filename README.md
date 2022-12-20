@@ -20,11 +20,11 @@ to assign my_pointer a value, you can initialize
 
 or
 
-'''
+```
 
 my_pointer=&t;
 
-'''
+```
 
 always use ampersand sign '&' 
 
@@ -32,33 +32,33 @@ if you want to later change the value of pointer globally just change the value 
 
 e.g
 
-'''
+```
 
 t= some_value;
 
-'''
+```
 
 do not do this again 
 
-'''
+```
 
 my_pointer=&t;
 
-'''
+```
 
 Accepting a pointer in a function:
 
-'''
+```
 void foo(int* pointer); // initialize function
 
-'''
+```
 
 to call the function:
 
-'''
+```
 
 foo(my_pointer); // no need for asterix or ampersand sign
 
-'''
+```
 
 see the code in ino file
