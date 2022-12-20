@@ -9,12 +9,12 @@ points to a variable address
 
 You have to follow this sequence to initialize;
 
-'''
+```
 
 int t; // this is a global variable. initializing it locally in a function is tricky
 int* my_pointer;
 
-'''
+```
 
 to assign my_pointer a value, you can initialize 
 
